@@ -5,6 +5,7 @@
     "/home/vkj/ros2_ws/src/custom_interfaces:msg/Sphere.msg",
     "/home/vkj/ros2_ws/src/custom_interfaces:msg/GoToGoal.msg",
     "/home/vkj/ros2_ws/src/custom_interfaces:srv/AddThreeInts.srv",
-    "/home/vkj/ros2_ws/src/custom_interfaces:action/CruiseSpeed.action"
+    "/home/vkj/ros2_ws/src/custom_interfaces:action/CruiseSpeed.action",
+    "/home/vkj/ros2_ws/src/custom_interfaces:action/CountAction.action"
   ]
 }

@@ -74,6 +74,7 @@ custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/cust
 custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/msg/_go_to_goal.py
 custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/srv/_add_three_ints.py
 custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/action/_cruise_speed.py
+custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/action/_count_action.py
 custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/msg/__init__.py
 custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/srv/__init__.py
 custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/action/__init__.py
@@ -82,6 +83,7 @@ custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/cust
 custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/msg/_go_to_goal_s.c
 custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/srv/_add_three_ints_s.c
 custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/action/_cruise_speed_s.c
+custom_interfaces__py/CMakeFiles/custom_interfaces__py: rosidl_generator_py/custom_interfaces/action/_count_action_s.c
 
 rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -101,6 +103,7 @@ rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport
 rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_interfaces/msg/GoToGoal.idl
 rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_interfaces/srv/AddThreeInts.idl
 rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_interfaces/action/CruiseSpeed.idl
+rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/custom_interfaces/action/CountAction.idl
 rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -192,6 +195,9 @@ rosidl_generator_py/custom_interfaces/srv/_add_three_ints.py: rosidl_generator_p
 rosidl_generator_py/custom_interfaces/action/_cruise_speed.py: rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_interfaces/action/_cruise_speed.py
 
+rosidl_generator_py/custom_interfaces/action/_count_action.py: rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_interfaces/action/_count_action.py
+
 rosidl_generator_py/custom_interfaces/msg/__init__.py: rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_interfaces/msg/__init__.py
 
@@ -216,11 +222,16 @@ rosidl_generator_py/custom_interfaces/srv/_add_three_ints_s.c: rosidl_generator_
 rosidl_generator_py/custom_interfaces/action/_cruise_speed_s.c: rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_interfaces/action/_cruise_speed_s.c
 
+rosidl_generator_py/custom_interfaces/action/_count_action_s.c: rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/custom_interfaces/action/_count_action_s.c
+
 custom_interfaces__py: custom_interfaces__py/CMakeFiles/custom_interfaces__py
 custom_interfaces__py: rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
 custom_interfaces__py: rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 custom_interfaces__py: rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 custom_interfaces__py: rosidl_generator_py/custom_interfaces/action/__init__.py
+custom_interfaces__py: rosidl_generator_py/custom_interfaces/action/_count_action.py
+custom_interfaces__py: rosidl_generator_py/custom_interfaces/action/_count_action_s.c
 custom_interfaces__py: rosidl_generator_py/custom_interfaces/action/_cruise_speed.py
 custom_interfaces__py: rosidl_generator_py/custom_interfaces/action/_cruise_speed_s.c
 custom_interfaces__py: rosidl_generator_py/custom_interfaces/msg/__init__.py

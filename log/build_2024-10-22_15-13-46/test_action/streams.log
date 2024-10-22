@@ -1,0 +1,30 @@
+[1.269s] Invoking command in '/home/vkj/ros2_ws/src/test_action': PYTHONPATH=/home/vkj/ros2_ws/build/test_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_action build --build-base /home/vkj/ros2_ws/build/test_action/build install --record /home/vkj/ros2_ws/build/test_action/install.log --single-version-externally-managed install_data
+[1.773s] running egg_info
+[1.774s] writing ../../build/test_action/test_action.egg-info/PKG-INFO
+[1.774s] writing dependency_links to ../../build/test_action/test_action.egg-info/dependency_links.txt
+[1.774s] writing entry points to ../../build/test_action/test_action.egg-info/entry_points.txt
+[1.775s] writing requirements to ../../build/test_action/test_action.egg-info/requires.txt
+[1.775s] writing top-level names to ../../build/test_action/test_action.egg-info/top_level.txt
+[1.778s] reading manifest file '../../build/test_action/test_action.egg-info/SOURCES.txt'
+[1.780s] writing manifest file '../../build/test_action/test_action.egg-info/SOURCES.txt'
+[1.780s] running build
+[1.780s] running build_py
+[1.780s] copying test_action/cruise_client.py -> /home/vkj/ros2_ws/build/test_action/build/lib/test_action
+[1.781s] copying test_action/cruise_server.py -> /home/vkj/ros2_ws/build/test_action/build/lib/test_action
+[1.781s] running install
+[1.782s] running install_lib
+[1.784s] copying /home/vkj/ros2_ws/build/test_action/build/lib/test_action/cruise_client.py -> /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action
+[1.784s] copying /home/vkj/ros2_ws/build/test_action/build/lib/test_action/cruise_server.py -> /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action
+[1.785s] byte-compiling /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action/cruise_client.py to cruise_client.cpython-310.pyc
+[1.786s] byte-compiling /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action/cruise_server.py to cruise_server.cpython-310.pyc
+[1.787s] running install_data
+[1.788s] running install_egg_info
+[1.791s] removing '/home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action-0.0.0-py3.10.egg-info' (and everything under it)
+[1.792s] Copying ../../build/test_action/test_action.egg-info to /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action-0.0.0-py3.10.egg-info
+[1.793s] running install_scripts
+[1.830s] Installing action_client_exe script to /home/vkj/ros2_ws/install/test_action/lib/test_action
+[1.830s] Installing action_server_exe script to /home/vkj/ros2_ws/install/test_action/lib/test_action
+[1.830s] Installing cruise_client_exe script to /home/vkj/ros2_ws/install/test_action/lib/test_action
+[1.831s] Installing cruise_server_exe script to /home/vkj/ros2_ws/install/test_action/lib/test_action
+[1.832s] writing list of installed files to '/home/vkj/ros2_ws/build/test_action/install.log'
+[1.880s] Invoked command in '/home/vkj/ros2_ws/src/test_action' returned '0': PYTHONPATH=/home/vkj/ros2_ws/build/test_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_action build --build-base /home/vkj/ros2_ws/build/test_action/build install --record /home/vkj/ros2_ws/build/test_action/install.log --single-version-externally-managed install_data

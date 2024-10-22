@@ -20,7 +20,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "cruise_server_exe=test_action.cruise_server:main"
+            "action_server_exe=test_action.action_server:main",
+            "action_client_exe=test_action.action_client:main",
+            "cruise_server_exe=test_action.cruise_server:main",
+            "cruise_client_exe=test_action.cruise_client:main"
+
         ],
     },
 )

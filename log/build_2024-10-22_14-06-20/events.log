@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000220] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000289] (-) JobUnselected: {'identifier': 'dc_motor_control'}
+[0.000337] (-) JobUnselected: {'identifier': 'test_action'}
+[0.000381] (-) JobUnselected: {'identifier': 'test_interfaces'}
+[0.000423] (-) JobUnselected: {'identifier': 'test_param'}
+[0.000465] (-) JobUnselected: {'identifier': 'test_service'}
+[0.000506] (-) JobUnselected: {'identifier': 'test_topic'}
+[0.000547] (-) JobUnselected: {'identifier': 'test_turtle'}
+[0.000938] (-) EventReactorShutdown: {}

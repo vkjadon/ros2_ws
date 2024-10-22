@@ -55,12 +55,12 @@ class CruiseSpeed_Goal(metaclass=Metaclass_CruiseSpeed_Goal):
     """Message class 'CruiseSpeed_Goal'."""
 
     __slots__ = [
-        '_goal_speed',
+        '_cruise_speed',
         '_cruise_step',
     ]
 
     _fields_and_field_types = {
-        'goal_speed': 'int64',
+        'cruise_speed': 'int64',
         'cruise_step': 'int64',
     }
 
@@ -73,7 +73,7 @@ class CruiseSpeed_Goal(metaclass=Metaclass_CruiseSpeed_Goal):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.goal_speed = kwargs.get('goal_speed', int())
+        self.cruise_speed = kwargs.get('cruise_speed', int())
         self.cruise_step = kwargs.get('cruise_step', int())
 
     def __repr__(self):
@@ -105,7 +105,7 @@ class CruiseSpeed_Goal(metaclass=Metaclass_CruiseSpeed_Goal):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.goal_speed != other.goal_speed:
+        if self.cruise_speed != other.cruise_speed:
             return False
         if self.cruise_step != other.cruise_step:
             return False
@@ -117,19 +117,19 @@ class CruiseSpeed_Goal(metaclass=Metaclass_CruiseSpeed_Goal):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def goal_speed(self):
-        """Message field 'goal_speed'."""
-        return self._goal_speed
+    def cruise_speed(self):
+        """Message field 'cruise_speed'."""
+        return self._cruise_speed
 
-    @goal_speed.setter
-    def goal_speed(self, value):
+    @cruise_speed.setter
+    def cruise_speed(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'goal_speed' field must be of type 'int'"
+                "The 'cruise_speed' field must be of type 'int'"
             assert value >= -9223372036854775808 and value < 9223372036854775808, \
-                "The 'goal_speed' field must be an integer in [-9223372036854775808, 9223372036854775807]"
-        self._goal_speed = value
+                "The 'cruise_speed' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._cruise_speed = value
 
     @builtins.property
     def cruise_step(self):

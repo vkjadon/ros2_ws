@@ -50,13 +50,13 @@ bool custom_interfaces__action__cruise_speed__goal__convert_from_py(PyObject * _
     assert(strncmp("custom_interfaces.action._cruise_speed.CruiseSpeed_Goal", full_classname_dest, 55) == 0);
   }
   custom_interfaces__action__CruiseSpeed_Goal * ros_message = _ros_message;
-  {  // goal_speed
-    PyObject * field = PyObject_GetAttrString(_pymsg, "goal_speed");
+  {  // cruise_speed
+    PyObject * field = PyObject_GetAttrString(_pymsg, "cruise_speed");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->goal_speed = PyLong_AsLongLong(field);
+    ros_message->cruise_speed = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
   {  // cruise_step
@@ -90,11 +90,11 @@ PyObject * custom_interfaces__action__cruise_speed__goal__convert_to_py(void * r
     }
   }
   custom_interfaces__action__CruiseSpeed_Goal * ros_message = (custom_interfaces__action__CruiseSpeed_Goal *)raw_ros_message;
-  {  // goal_speed
+  {  // cruise_speed
     PyObject * field = NULL;
-    field = PyLong_FromLongLong(ros_message->goal_speed);
+    field = PyLong_FromLongLong(ros_message->cruise_speed);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "goal_speed", field);
+      int rc = PyObject_SetAttrString(_pymessage, "cruise_speed", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

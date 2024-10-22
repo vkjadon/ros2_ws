@@ -1,3 +1,6 @@
 [console_scripts]
+action_client_exe = test_action.action_client:main
+action_server_exe = test_action.action_server:main
+cruise_client_exe = test_action.cruise_client:main
 cruise_server_exe = test_action.cruise_server:main
 

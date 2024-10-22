@@ -86,6 +86,10 @@ CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/count_action.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/count_action__builder.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/count_action__struct.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/count_action__traits.hpp
 
 rosidl_generator_cpp/custom_interfaces/msg/num.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/custom_interfaces/msg/num.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -107,6 +111,7 @@ rosidl_generator_cpp/custom_interfaces/msg/num.hpp: rosidl_adapter/custom_interf
 rosidl_generator_cpp/custom_interfaces/msg/num.hpp: rosidl_adapter/custom_interfaces/msg/GoToGoal.idl
 rosidl_generator_cpp/custom_interfaces/msg/num.hpp: rosidl_adapter/custom_interfaces/srv/AddThreeInts.idl
 rosidl_generator_cpp/custom_interfaces/msg/num.hpp: rosidl_adapter/custom_interfaces/action/CruiseSpeed.idl
+rosidl_generator_cpp/custom_interfaces/msg/num.hpp: rosidl_adapter/custom_interfaces/action/CountAction.idl
 rosidl_generator_cpp/custom_interfaces/msg/num.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/custom_interfaces/msg/num.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/custom_interfaces/msg/num.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -234,8 +239,24 @@ rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__struct.hpp: r
 rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/num.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/action/count_action.hpp: rosidl_generator_cpp/custom_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/action/count_action.hpp
+
+rosidl_generator_cpp/custom_interfaces/action/detail/count_action__builder.hpp: rosidl_generator_cpp/custom_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/action/detail/count_action__builder.hpp
+
+rosidl_generator_cpp/custom_interfaces/action/detail/count_action__struct.hpp: rosidl_generator_cpp/custom_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/action/detail/count_action__struct.hpp
+
+rosidl_generator_cpp/custom_interfaces/action/detail/count_action__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/action/detail/count_action__traits.hpp
+
 custom_interfaces__cpp: CMakeFiles/custom_interfaces__cpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/count_action.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/cruise_speed.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/count_action__builder.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/count_action__struct.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/count_action__traits.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__traits.hpp

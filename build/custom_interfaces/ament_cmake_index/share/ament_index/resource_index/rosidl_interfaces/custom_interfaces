@@ -1,3 +1,5 @@
+action/CountAction.action
+action/CountAction.idl
 action/CruiseSpeed.action
 action/CruiseSpeed.idl
 msg/GoToGoal.idl

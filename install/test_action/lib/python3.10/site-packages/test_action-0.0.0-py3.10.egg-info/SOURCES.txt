@@ -13,5 +13,8 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 test_action/__init__.py
+test_action/action_client.py
+test_action/action_server.py
+test_action/cruise_client.py
 test_action/cruise_server.py
 test_action/template_node.py

@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GoToGoal.msg"
   "srv/AddThreeInts.srv"
   "action/CruiseSpeed.action"
+  "action/CountAction.action"
   DEPENDENCIES 
     geometry_msgs 
     # turtlesim

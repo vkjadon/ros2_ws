@@ -8,11 +8,25 @@ class CruiseActionServerNode(Node):
 
     def __init__(self):
         super().__init__('cruise_node')
-        self.cruse_acttion_server=ActionServer(self, CruiseSpeed, "cruise_speed", execute_callback=self.callback_cruise_server)
-        self.get_logger().info("Action Server Node Started !! ")
+
+        self.cruse_action_server=ActionServer(self, CruiseSpeed, "cruise_speed", execute_callback=self.callback_cruise_server)
+        self.get_logger().info("Action Server Node Started !! Waiting For request")
+        self.speed=70
 
     def callback_cruise_server(self, goal_handle):
-        self.get_logger().info("Execute Callback Invoked !!")
+        cruise_speed = goal_handle.request.cruise_speed
+        cruise_step = goal_handle.request.cruise_step
+        current_speed = self.speed
+
+        for i in range (self.speed, cruise_speed, cruise_step):
+            current_speed=current_speed + cruise_step 
+            self.get_logger().info(f"Execute Callback Invoked !! {current_speed}")
+            
+        goal_handle.succeed()
+
+        result = CruiseSpeed.Result()
+        result.final_speed = current_speed
+        return result
 
 def main():
     rclpy.init()

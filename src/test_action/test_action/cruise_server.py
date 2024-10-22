@@ -21,6 +21,12 @@ class CruiseActionServerNode(Node):
         for i in range (self.speed, cruise_speed, cruise_step):
             current_speed=current_speed + cruise_step 
             self.get_logger().info(f"Execute Callback Invoked !! {current_speed}")
+            
+        goal_handle.succeed()
+
+        result = CruiseSpeed.Result()
+        result.final_speed = current_speed
+        return result
 
 def main():
     rclpy.init()

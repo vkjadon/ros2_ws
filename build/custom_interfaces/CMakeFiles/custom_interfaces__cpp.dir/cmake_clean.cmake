@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custom_interfaces__cpp"
+  "rosidl_generator_cpp/custom_interfaces/action/count_action.hpp"
   "rosidl_generator_cpp/custom_interfaces/action/cruise_speed.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/count_action__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/count_action__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/count_action__traits.hpp"
   "rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__builder.hpp"
   "rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__struct.hpp"
   "rosidl_generator_cpp/custom_interfaces/action/detail/cruise_speed__traits.hpp"

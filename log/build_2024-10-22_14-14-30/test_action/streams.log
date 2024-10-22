@@ -1,0 +1,21 @@
+[1.290s] Invoking command in '/home/vkj/ros2_ws/src/test_action': PYTHONPATH=/home/vkj/ros2_ws/build/test_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_action build --build-base /home/vkj/ros2_ws/build/test_action/build install --record /home/vkj/ros2_ws/build/test_action/install.log --single-version-externally-managed install_data
+[1.800s] running egg_info
+[1.801s] writing ../../build/test_action/test_action.egg-info/PKG-INFO
+[1.801s] writing dependency_links to ../../build/test_action/test_action.egg-info/dependency_links.txt
+[1.802s] writing entry points to ../../build/test_action/test_action.egg-info/entry_points.txt
+[1.802s] writing requirements to ../../build/test_action/test_action.egg-info/requires.txt
+[1.802s] writing top-level names to ../../build/test_action/test_action.egg-info/top_level.txt
+[1.806s] reading manifest file '../../build/test_action/test_action.egg-info/SOURCES.txt'
+[1.807s] writing manifest file '../../build/test_action/test_action.egg-info/SOURCES.txt'
+[1.807s] running build
+[1.808s] running build_py
+[1.808s] running install
+[1.809s] running install_lib
+[1.811s] running install_data
+[1.811s] running install_egg_info
+[1.815s] removing '/home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action-0.0.0-py3.10.egg-info' (and everything under it)
+[1.815s] Copying ../../build/test_action/test_action.egg-info to /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action-0.0.0-py3.10.egg-info
+[1.817s] running install_scripts
+[1.855s] Installing action_server_exe=test_action.action_server:mainaction_client_exe script to /home/vkj/ros2_ws/install/test_action/lib/test_action
+[1.855s] writing list of installed files to '/home/vkj/ros2_ws/build/test_action/install.log'
+[1.902s] Invoked command in '/home/vkj/ros2_ws/src/test_action' returned '0': PYTHONPATH=/home/vkj/ros2_ws/build/test_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_action build --build-base /home/vkj/ros2_ws/build/test_action/build install --record /home/vkj/ros2_ws/build/test_action/install.log --single-version-externally-managed install_data

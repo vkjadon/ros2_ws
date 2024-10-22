@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/count_action__type_support.c.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/count_action__type_support.c.o.d"
   "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/cruise_speed__type_support.c.o"
   "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/cruise_speed__type_support.c.o.d"
   "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/go_to_goal__type_support.c.o"
@@ -11,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/add_three_ints__type_support.c.o.d"
   "libcustom_interfaces__rosidl_typesupport_introspection_c.pdb"
   "libcustom_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/custom_interfaces/action/detail/count_action__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/custom_interfaces/action/detail/count_action__type_support.c"
   "rosidl_typesupport_introspection_c/custom_interfaces/action/detail/cruise_speed__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/custom_interfaces/action/detail/cruise_speed__type_support.c"
   "rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/go_to_goal__rosidl_typesupport_introspection_c.h"
