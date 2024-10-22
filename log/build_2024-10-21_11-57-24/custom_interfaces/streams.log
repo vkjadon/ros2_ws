@@ -1,0 +1,59 @@
+[0.116s] Invoking command in '/home/vkj/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/vkj/ros2_ws/install/test_turtle:/opt/ros/humble /usr/bin/cmake /home/vkj/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/vkj/ros2_ws/install/custom_interfaces
+[2.132s] -- The C compiler identification is GNU 11.4.0
+[3.080s] -- The CXX compiler identification is GNU 11.4.0
+[3.252s] -- Detecting C compiler ABI info
+[3.700s] -- Detecting C compiler ABI info - done
+[3.714s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.714s] -- Detecting C compile features
+[3.745s] -- Detecting C compile features - done
+[3.776s] -- Detecting CXX compiler ABI info
+[4.077s] -- Detecting CXX compiler ABI info - done
+[4.092s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.092s] -- Detecting CXX compile features
+[4.094s] -- Detecting CXX compile features - done
+[4.235s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.731s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.309s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.376s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.997s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.280s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[7.350s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[7.350s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[7.351s]   custom_interfaces --arguments-file
+[7.351s]   /home/vkj/ros2_ws/build/custom_interfaces/rosidl_adapter__arguments__custom_interfaces.json
+[7.352s]   --output-dir
+[7.352s]   /home/vkj/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces
+[7.353s]   --output-file
+[7.353s]   /home/vkj/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces.idls)
+[7.353s]   returned error code 1:
+[7.354s] 
+[7.354s]   Traceback (most recent call last):
+[7.355s] 
+[7.355s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[7.355s]       return _run_code(code, main_globals, None,
+[7.355s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[7.356s]       exec(code, run_globals)
+[7.356s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[7.356s]       sys.exit(main())
+[7.357s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[7.357s]       abs_idl_file = convert_to_idl(
+[7.357s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[7.357s]       return convert_srv_to_idl(
+[7.358s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[7.358s]       srv = parse_service_string(package_name, input_file.stem, content)
+[7.358s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 850, in parse_service_string
+[7.359s]       raise InvalidServiceSpecification(
+[7.359s] 
+[7.359s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[7.359s]   '---' between request and response
+[7.360s] 
+[7.360s] Call Stack (most recent call first):
+[7.360s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[7.361s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[7.361s] 
+[7.361s] [0m
+[7.361s] -- Configuring incomplete, errors occurred!
+[7.362s] See also "/home/vkj/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[7.373s] Invoked command in '/home/vkj/ros2_ws/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/vkj/ros2_ws/install/test_turtle:/opt/ros/humble /usr/bin/cmake /home/vkj/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/vkj/ros2_ws/install/custom_interfaces

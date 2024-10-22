@@ -1,0 +1,3 @@
+[console_scripts]
+cruise_server_exe = test_action.cruise_server:main
+

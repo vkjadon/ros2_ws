@@ -1,0 +1,12 @@
+[console_scripts]
+circle_exe = test_turtle.circle:main
+circle_timer_exe = test_turtle.circle_timer:main
+circles_exe = test_turtle.circles:main
+cycle_exe = test_turtle.cycle:main
+drone_exe = test_turtle.drone:main
+line_exe = test_turtle.line:main
+reset_exe = test_turtle.reset:main
+spiral_exe = test_turtle.spiral:main
+spiral_uniform_exe = test_turtle.spiral_uniform:main
+teleport_exe = test_turtle.teleport:main
+

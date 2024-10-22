@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/test_action/test_action.egg-info
+writing ../../build/test_action/test_action.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_action/test_action.egg-info/dependency_links.txt
+writing entry points to ../../build/test_action/test_action.egg-info/entry_points.txt
+writing requirements to ../../build/test_action/test_action.egg-info/requires.txt
+writing top-level names to ../../build/test_action/test_action.egg-info/top_level.txt
+writing manifest file '../../build/test_action/test_action.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_action/test_action.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_action/test_action.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vkj/ros2_ws/build/test_action/build
+creating /home/vkj/ros2_ws/build/test_action/build/lib
+creating /home/vkj/ros2_ws/build/test_action/build/lib/test_action
+copying test_action/__init__.py -> /home/vkj/ros2_ws/build/test_action/build/lib/test_action
+copying test_action/cruise_server.py -> /home/vkj/ros2_ws/build/test_action/build/lib/test_action
+copying test_action/template_node.py -> /home/vkj/ros2_ws/build/test_action/build/lib/test_action
+running install
+running install_lib
+creating /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action
+copying /home/vkj/ros2_ws/build/test_action/build/lib/test_action/__init__.py -> /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action
+copying /home/vkj/ros2_ws/build/test_action/build/lib/test_action/cruise_server.py -> /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action
+copying /home/vkj/ros2_ws/build/test_action/build/lib/test_action/template_node.py -> /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action
+byte-compiling /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action/cruise_server.py to cruise_server.cpython-310.pyc
+byte-compiling /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action/template_node.py to template_node.cpython-310.pyc
+running install_data
+creating /home/vkj/ros2_ws/install/test_action/share/ament_index
+creating /home/vkj/ros2_ws/install/test_action/share/ament_index/resource_index
+creating /home/vkj/ros2_ws/install/test_action/share/ament_index/resource_index/packages
+copying resource/test_action -> /home/vkj/ros2_ws/install/test_action/share/ament_index/resource_index/packages
+copying package.xml -> /home/vkj/ros2_ws/install/test_action/share/test_action
+running install_egg_info
+Copying ../../build/test_action/test_action.egg-info to /home/vkj/ros2_ws/install/test_action/lib/python3.10/site-packages/test_action-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cruise_server_exe script to /home/vkj/ros2_ws/install/test_action/lib/test_action
+writing list of installed files to '/home/vkj/ros2_ws/build/test_action/install.log'

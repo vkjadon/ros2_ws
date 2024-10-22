@@ -1,0 +1,76 @@
+[1.987s] Invoking command in '/home/vkj/ros2_ws/src/test_turtle': PYTHONPATH=/home/vkj/ros2_ws/build/test_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_turtle build --build-base /home/vkj/ros2_ws/build/test_turtle/build install --record /home/vkj/ros2_ws/build/test_turtle/install.log --single-version-externally-managed install_data
+[2.529s] running egg_info
+[2.530s] creating ../../build/test_turtle/test_turtle.egg-info
+[2.530s] writing ../../build/test_turtle/test_turtle.egg-info/PKG-INFO
+[2.530s] writing dependency_links to ../../build/test_turtle/test_turtle.egg-info/dependency_links.txt
+[2.531s] writing entry points to ../../build/test_turtle/test_turtle.egg-info/entry_points.txt
+[2.531s] writing requirements to ../../build/test_turtle/test_turtle.egg-info/requires.txt
+[2.531s] writing top-level names to ../../build/test_turtle/test_turtle.egg-info/top_level.txt
+[2.531s] writing manifest file '../../build/test_turtle/test_turtle.egg-info/SOURCES.txt'
+[2.563s] reading manifest file '../../build/test_turtle/test_turtle.egg-info/SOURCES.txt'
+[2.564s] writing manifest file '../../build/test_turtle/test_turtle.egg-info/SOURCES.txt'
+[2.564s] running build
+[2.565s] running build_py
+[2.565s] creating /home/vkj/ros2_ws/build/test_turtle/build
+[2.565s] creating /home/vkj/ros2_ws/build/test_turtle/build/lib
+[2.565s] creating /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.565s] copying test_turtle/teleport.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.580s] copying test_turtle/cycle.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.580s] copying test_turtle/__init__.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.581s] copying test_turtle/circle_timer.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.581s] copying test_turtle/line.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.581s] copying test_turtle/drone.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.581s] copying test_turtle/teleport_pen.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.582s] copying test_turtle/reset.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.582s] copying test_turtle/circle.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.582s] copying test_turtle/spiral.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.583s] copying test_turtle/spiral_uniform.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.583s] copying test_turtle/circles.py -> /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle
+[2.584s] running install
+[2.584s] running install_lib
+[2.586s] creating /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.586s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/teleport.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.586s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/cycle.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.586s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/__init__.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.587s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/circle_timer.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.587s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/line.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.587s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/drone.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.587s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/teleport_pen.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.588s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/reset.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.588s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/circle.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.588s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/spiral.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.588s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/spiral_uniform.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.588s] copying /home/vkj/ros2_ws/build/test_turtle/build/lib/test_turtle/circles.py -> /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle
+[2.589s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/teleport.py to teleport.cpython-310.pyc
+[2.590s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/cycle.py to cycle.cpython-310.pyc
+[2.592s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/__init__.py to __init__.cpython-310.pyc
+[2.592s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/circle_timer.py to circle_timer.cpython-310.pyc
+[2.593s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/line.py to line.cpython-310.pyc
+[2.593s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/drone.py to drone.cpython-310.pyc
+[2.595s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/teleport_pen.py to teleport_pen.cpython-310.pyc
+[2.596s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/reset.py to reset.cpython-310.pyc
+[2.596s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/circle.py to circle.cpython-310.pyc
+[2.597s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/spiral.py to spiral.cpython-310.pyc
+[2.598s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/spiral_uniform.py to spiral_uniform.cpython-310.pyc
+[2.599s] byte-compiling /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle/circles.py to circles.cpython-310.pyc
+[2.600s] running install_data
+[2.600s] creating /home/vkj/ros2_ws/install/test_turtle/share/ament_index
+[2.600s] creating /home/vkj/ros2_ws/install/test_turtle/share/ament_index/resource_index
+[2.600s] creating /home/vkj/ros2_ws/install/test_turtle/share/ament_index/resource_index/packages
+[2.601s] copying resource/test_turtle -> /home/vkj/ros2_ws/install/test_turtle/share/ament_index/resource_index/packages
+[2.601s] copying package.xml -> /home/vkj/ros2_ws/install/test_turtle/share/test_turtle
+[2.601s] running install_egg_info
+[2.604s] Copying ../../build/test_turtle/test_turtle.egg-info to /home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages/test_turtle-0.0.0-py3.10.egg-info
+[2.605s] running install_scripts
+[2.643s] Installing circle_exe script to /home/vkj/ros2_ws/install/test_turtle/lib/test_turtle
+[2.644s] Installing circle_timer_exe script to /home/vkj/ros2_ws/install/test_turtle/lib/test_turtle
+[2.644s] Installing circles_exe script to /home/vkj/ros2_ws/install/test_turtle/lib/test_turtle
+[2.644s] Installing cycle_exe script to /home/vkj/ros2_ws/install/test_turtle/lib/test_turtle
+[2.645s] Installing drone_exe script to /home/vkj/ros2_ws/install/test_turtle/lib/test_turtle
+[2.645s] Installing line_exe script to /home/vkj/ros2_ws/install/test_turtle/lib/test_turtle
+[2.645s] Installing reset_exe script to /home/vkj/ros2_ws/install/test_turtle/lib/test_turtle
+[2.645s] Installing spiral_exe script to /home/vkj/ros2_ws/install/test_turtle/lib/test_turtle
+[2.645s] Installing spiral_uniform_exe script to /home/vkj/ros2_ws/install/test_turtle/lib/test_turtle
+[2.645s] Installing teleport_exe script to /home/vkj/ros2_ws/install/test_turtle/lib/test_turtle
+[2.646s] writing list of installed files to '/home/vkj/ros2_ws/build/test_turtle/install.log'
+[2.692s] Invoked command in '/home/vkj/ros2_ws/src/test_turtle' returned '0': PYTHONPATH=/home/vkj/ros2_ws/build/test_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vkj/ros2_ws/install/test_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_turtle build --build-base /home/vkj/ros2_ws/build/test_turtle/build install --record /home/vkj/ros2_ws/build/test_turtle/install.log --single-version-externally-managed install_data

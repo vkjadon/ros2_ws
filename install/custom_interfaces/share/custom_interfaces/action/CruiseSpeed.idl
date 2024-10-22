@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/CruiseSpeed.action
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal - Cruise Speed")
+    struct CruiseSpeed_Goal {
+      int64 cruise_speed;
+
+      int64 cruise_step;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct CruiseSpeed_Result {
+      int64 final_speed;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct CruiseSpeed_Feedback {
+      int64 current_speed;
+    };
+  };
+};
